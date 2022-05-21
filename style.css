@@ -56,12 +56,12 @@ background-size: 40px 60px;
 	background-size:16px 16px;
 }
 
-#info{
+.hide{
 	display: none;
 	/* visibility: hidden; */
 }
 
-#show{
+.show{
 	width:100%;
 	background: none;
 	margin:0 auto;
