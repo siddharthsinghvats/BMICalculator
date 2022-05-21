@@ -25,5 +25,5 @@ document.getElementById('sub').addEventListener('click',function(){
     document.getElementById('body').setAttribute("src",img);
     document.getElementById('res').innerHTML=`You are ${data}.`;
     document.getElementById('result').innerHTML=`Your BMI is <strong>${bmi}</strong>.`;
-    document.getElementById('info').setAttribute("id","show");
+    document.getElementById('info').setAttribute("class","card show");
 });
