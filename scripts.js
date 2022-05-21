@@ -8,19 +8,19 @@ document.getElementById('sub').addEventListener('click',function(){
     let data='';
     if(bmi<19){
         data='underweight';
-        img="./images/underweight.jpg";
+        img="./underweight.jpg";
     }
     else if(bmi>=19 && bmi<=25){
         data='Healthy';
-        img="./images/healthy.jpg";
+        img="./healthy.jpg";
     }
     else if(bmi>25&&bmi<=30){
         data='overweight';
-        img="./images/overweight.jpg";
+        img="./overweight.jpg";
     }
     else{
         data='Obese';
-        img="./images/obese.jpg";
+        img="./obese.jpg";
     }
     document.getElementById('body').setAttribute("src",img);
     document.getElementById('res').innerHTML=`You are ${data}.`;
