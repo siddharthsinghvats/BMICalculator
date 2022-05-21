@@ -1,7 +1,7 @@
 document.getElementById('sub').addEventListener('click',function(){
     let h = document.getElementById('height').value;
     let w = document.getElementById('weight').value;
-    h/=3.281;
+    h/=100;
     let bmi = w/(h*h);
     bmi = parseFloat(bmi).toFixed(2);
     let img;
